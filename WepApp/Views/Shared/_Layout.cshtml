@@ -31,6 +31,11 @@
         <li class="nav-item">
           <a class="nav-link " asp-area="" asp-controller="Category" asp-action="Index">Category</a>
         </li>
+          <li class="nav-item">
+          <a class="nav-link " asp-area="" asp-controller="Films" asp-action="Index">Films</a>
+        </li>
+
+
        
         @*<li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
@@ -43,16 +48,13 @@
           </div>
         </li>*@
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-      </form>
+      
     </div>
   </div>
 </nav>
         
     </header>
-    <div class="container" style="height:600px" >
+    <div class="container" style="height:800px" >
         <main role="main" class="pb-3">
             <partial name="_Notification" />
 

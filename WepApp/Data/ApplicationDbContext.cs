@@ -9,6 +9,9 @@ namespace WepApp.Data
         { 
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Film> Filmz { get; set; }
+       
+        
     }
         
 }
